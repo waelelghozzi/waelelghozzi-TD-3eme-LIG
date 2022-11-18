@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar{
+    color: #e5e5e5;
+    
+}
+.navlist{
+    display:flex;
+    flex-direction: row;
+}
+.navlist *{
+    margin-left: 1rem;
+}
+.logo{
+    height: 90px;
+    width: auto;
+}
