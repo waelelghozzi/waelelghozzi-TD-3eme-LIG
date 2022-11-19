@@ -12,19 +12,27 @@ body{
     display:flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 1.5rem;
-    margin-top: 1rem;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
     font-family: made;
     font-size: 17px;
+    justify-content: space-between;
 }
+.cont{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .navlist{
     display:flex;
     flex-direction: row;
 }
 .navlist *{
     margin-left: 1rem;
+    margin-top: 0.4rem;
 }
 .logo{
-    height: 90px;
+    height: 70px;
     width: auto;
 }
