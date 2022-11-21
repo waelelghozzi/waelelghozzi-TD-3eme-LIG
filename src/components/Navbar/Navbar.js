@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import styles from "./Navbar.module.css";
 import logo from './assets/580b57fcd9996e24bc43c529.png';
 import SecNav from '../SecNav/SecNav.js'
+import Links from './links/links';
 
 export default class Navbar extends Component {
   render() {
@@ -11,10 +12,11 @@ export default class Navbar extends Component {
     return (
       <div className={styles.Navbar} >
         
-        <div className={styles.cont}>
-        <img src={logo} alt='' className={styles.logo}/>
-        <div className={styles.navlist}>
-            {/*{navigation.map( item =>{<li>{item}</li>})}*/}
+      <div className={styles.cont}>
+      <img src={logo} alt='' className={styles.logo}/>
+      <div  className={styles.navlist}>
+          {/*{navigation.map( item =>{<li>{item}</li>})}*/}
+          {/* <Links/> */}
             <div>Home</div>
             <div>Tv shows</div>
             <div>Movies</div>
