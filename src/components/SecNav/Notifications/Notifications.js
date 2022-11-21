@@ -1,16 +1,15 @@
 
 import styles from "./Notifications.module.css";
-//import SearchIcon from './assets/searchiC.png';
-//import NotificationsIcon from './assets/';
-const Search = () =>{
+import NotificationsIcon from './NotificationsIcon.js';
+//import NotificationsIconpng from './assets/NotificationsIconpng.png';
+const Notifications = () =>{
     return(
         <>
-        {/* <NotificationsIcon /> */}
-        {/* <SearchIcon /> */}
-        <img src='' className={styles.SearchIcon} alt="notif" />
+        <NotificationsIcon /> 
+        {/* <img src={NotificationsIconpng} className={styles.NotificationsIconpng} alt="notif" /> */}
         </>
             
          
     )
 }
-export default Search;
+export default Notifications;

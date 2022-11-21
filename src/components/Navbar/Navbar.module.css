@@ -29,11 +29,16 @@ body{
     flex-direction: row;
     list-style: none;
     color: azure;
-    text-decoration: none;
-}
+   
+   }
 .navlist *{
     margin-left: 1rem;
     margin-top: 0.4rem;
+     text-decoration: none;
+     color: #e5e5e5;
+}
+.navlist :nth-child(1){
+    margin-left: 0rem;
 }
 .logo{
     height: 70px;

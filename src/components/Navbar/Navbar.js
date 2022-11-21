@@ -14,14 +14,15 @@ export default class Navbar extends Component {
         
       <div className={styles.cont}>
       <img src={logo} alt='' className={styles.logo}/>
-      <div  className={styles.navlist}>
+      <div>
           {/*{navigation.map( item =>{<li>{item}</li>})}*/}
-          {/* <Links/> */}
-            <div>Home</div>
+          <Links/> 
+
+            {/* <div>Home</div>
             <div>Tv shows</div>
             <div>Movies</div>
             <div>Popular</div>
-            <div>My list</div>
+            <div>My list</div> */}
         </div>
         </div>
         <SecNav/>
